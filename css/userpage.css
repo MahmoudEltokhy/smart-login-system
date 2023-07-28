@@ -1,0 +1,48 @@
+body{
+
+    background-color: #24353F;
+}
+
+.form{
+
+    background-color:  #24353F;
+}
+
+.form input{
+
+    background-color: transparent;
+}
+
+.form input:focus{
+
+    background-color: transparent;
+    outline:none;
+    border: 1px solid #31D2F2;
+    color: #fff;
+}
+
+a{
+
+    text-decoration: none;
+}
+
+.form{
+
+    justify-content: flex-end !important;
+}
+
+span{
+
+    background-color: #fff !important;
+    outline: none;
+    border: none;
+}
+
+.section2{
+
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

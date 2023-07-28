@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/signup.css" />
+  </head>
+  <body>
+    <main>
+      <section class="form w-75 mx-auto my-5 p-5 shadow-lg">
+        <h1 class="text-center text-info pb-3">Smart Login System</h1>
+        <div class="mb-4">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="Enter Your Name"
+          />
+          <p class="alert alert-warning mt-2 d-none" id="messageName">
+            please enter Valid Name <br />
+            Ex: Mahmoud Eltokhy <br />
+            Ex: Ibrahim
+          </p>
+        </div>
+        <div class="mb-4">
+          <input
+            type="email"
+            class="form-control"
+            id="userEmail"
+            placeholder="Enter Your Email"
+          />
+          <p class="alert alert-warning mt-2 d-none" id="messageEmail">
+            please enter ValidEmail <br />
+            Ex: mahmoud@gmail.com <br />
+            Ex: Mahmoud12334@yahoo.com <br />
+            Don't use spaces
+          </p>
+
+          <p class="alert alert-warning mt-2 d-none" id="messageEmail1">
+            this Email Exist!!
+          </p>
+        </div>
+        <div class="mb-4">
+          <input
+            type="password"
+            class="form-control"
+            id="userPassword"
+            placeholder="Enter Your Password"
+          />
+        </div>
+        <div class="mb-4">
+          <button class="btn w-100 btn-outline-info" id="signUpBtn">
+            SignUp
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signup.js"></script>
+  </body>
+</html>
